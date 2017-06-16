@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textViewAqName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre:" />
+    <EditText
+        android:id="@+id/aqNameTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+    <TextView
+        android:id="@+id/textViewAqType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo:" />
+    <EditText
+        android:id="@+id/aqTypeTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+    <TextView
+        android:id="@+id/textViewAqLts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Litros:" />
+    <EditText
+        android:id="@+id/aqLtsTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/submitAquarium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subir datos" />
+</LinearLayout>

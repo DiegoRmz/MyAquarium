@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textViewNamae"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre:" />
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dia:" />
+    <EditText
+        android:id="@+id/dayTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date" />
+    <TextView
+        android:id="@+id/textViewMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mes:" />
+    <EditText
+        android:id="@+id/monthTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date" />
+    <TextView
+        android:id="@+id/textViewYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Año:" />
+    <EditText
+        android:id="@+id/yearTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date" />
+    <TextView
+        android:id="@+id/textViewPH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PH:" />
+    <EditText
+        android:id="@+id/phTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+    <TextView
+        android:id="@+id/textViewSalinity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salinidad:" />
+    <EditText
+        android:id="@+id/salinityTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+    <TextView
+        android:id="@+id/textViewAmmonia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amoniaco:" />
+    <EditText
+        android:id="@+id/ammoniaTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+    <TextView
+        android:id="@+id/textViewNitrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nitritos:" />
+    <EditText
+        android:id="@+id/nitriteTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+    <TextView
+        android:id="@+id/textViewNitrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nitratos:" />
+    <EditText
+        android:id="@+id/nitrateTextEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+    <Button
+        android:id="@+id/submitParameters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subir parámetros" />
+</LinearLayout>
